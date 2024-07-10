@@ -1,7 +1,7 @@
 # Linear Search Algorithm
 
 ## Flowchart
-![Flowchart for Linear Search](LinearSearching.png)
+![Flowchart for Linear Search](Flowchart.png)
 
 ## Pseudocode for Linear Search
 1. Start
