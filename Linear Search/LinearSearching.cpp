@@ -28,5 +28,6 @@
     cout<<"Enter the element you want to search in an array: ";
     cin>>element;
     linearSearch(arr,size,element);
+    delete [] arr;
     return 0;
   }
