@@ -41,7 +41,7 @@ int main() {
     cout << "Enter an element which you want to search from list:";
     cin >> target; // Read the target element to search for
 
-    binarySearch(arr, size - 1, target); // Call binary search function
+    binarySearch(arr, (size - 1), target); // Call binary search function
 
     delete [] arr; // Deallocate the dynamically allocated array
     return 0; // Return 0 to indicate successful execution

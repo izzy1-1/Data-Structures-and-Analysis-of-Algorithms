@@ -1,9 +1,12 @@
-# Binary Search Algorithm
+# **Binary Search Algorithm**
 
 ## Flow Chart
 ![Flow Chart of Binary Search](Flowchart.png)
 
-## Pseudo Code
+## Algorithm Working
+![Algorithm Working Image](Example.png)
+
+## Binary Search Algorithm
 
 1. Initialize variables `start`, `end`, and `index`:
    - `start` = 0
@@ -31,15 +34,16 @@
 
 ## Time and Space Complexity
 
-- **Time Complexity:**
-  - The time complexity of the binary search algorithm is **O(log n)**. This is because with each iteration, the search space is halved until the target is found or the search space is exhausted.
+- **Time Complexity**:
+  - **Best Case**: \( O(1) \) - This occurs when the target element is the middle element of the array, requiring only one comparison.
+  - **Average Case**: \( O(\log n) \) - This occurs because, on average, the algorithm halves the search space with each iteration until the target is found or the search space is exhausted.
+  - **Worst Case**: \( O(\log n) \) - This occurs when the target element is not in the array, or it is at the very beginning or end of the array, requiring the maximum number of comparisons.
 
-- **Space Complexity:**
-  - The space complexity of the binary search algorithm is **O(1)**. This is because the algorithm only uses a constant amount of extra space, regardless of the size of the input array.
+- **Space Complexity**: \( O(1) \) - Binary search uses a constant amount of additional space, regardless of the size of the input array. This includes a few variables to store the low, high, and mid indices used during the search process.
 
 ## Explanation
 
-Binary search is an efficient algorithm for finding an element in a sorted array. The algorithm works by repeatedly dividing the search interval in half. If the value of the search key is less than the item in the middle of the interval, the search focuses on the lower half. Otherwise, it focuses on the upper half. This process continues until the search interval is empty or the target value is found.
+Binary search is an efficient algorithm for finding an element in a ***sorted array***. The algorithm works by repeatedly dividing the search interval in half. If the value of the search key is less than the item in the middle of the interval, the search focuses on the lower half. Otherwise, it focuses on the upper half. This process continues until the search interval is empty or the target value is found.
 
 ### Example
 Given a sorted array `[1, 3, 5, 7, 9, 11]` and a target value `7`:
