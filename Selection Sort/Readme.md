@@ -67,11 +67,8 @@ Consider the array: `[64, 25, 12, 22, 11]`
    - Minimum is `25` (no change needed).
    - Array: `[11, 12, 22, 25, 64]`
 
-5. **Fifth Pass**:
-   - Only one element remains, so the array is sorted.
-
 ### Characteristics
-- **Stability**: Selection Sort is not a stable sort; equal elements may not retain their original order.
+- **Stability**: Selection Sort is not a stable sort; equal elements may not retain their original order Where as **Bubble and insertion sort is stable sort algorithms**.
 - **In-Place**: It requires only a constant amount of additional space, making it an in-place sorting algorithm.
 
 ### Use Cases

@@ -1,9 +1,7 @@
 def insertion_sort(array):
-    """Function to perform insertion sort on an array"""
     for i in range(len(array)):  # Loop through each element in the array
         current_value = array[i]  # Store the current element
         j = i - 1
-        
         # Shift elements of the sorted portion of the array to the right
         # until the correct position for current_value is found
         while j >= 0 and array[j] > current_value:
@@ -21,13 +19,11 @@ def main():
     for _ in range(size):
         arr.append(int(input()))  # Read elements into the array
     
-    print("Elements before insertion sorting:")
-    print(" ".join(map(str, arr)))  # Print elements before sorting
+    print(f"Elements before insertion sorting:{arr}")
     
     insertion_sort(arr)  # Call insertion sort function to sort the array
     
-    print("Elements after insertion sorting:")
-    print(" ".join(map(str, arr)))  # Print elements after sorting
+    print(f"Elements after insertion sorting:{arr}")
 
 if __name__ == "__main__":
     main()  # Call the main function to execute the program
