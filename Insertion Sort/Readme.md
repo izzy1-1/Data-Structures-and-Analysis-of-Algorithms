@@ -1,7 +1,7 @@
 # **Insertion Sort Algorithm**
 
 ## Flowchart
-![Flowchart](Insertion-Sort--Flowchart.png)
+![Flowchart](Flowchart.png)
 
 ## Algorithm Working
 ![Algorithm Working Image](Example.png)
