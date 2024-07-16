@@ -12,7 +12,7 @@
         cout<<"Element matches in index: "<<index<<endl;
     }
     else{
-        cout<<"Not fount the element "<<target<<" in an array"<<endl;
+        cout<<"Not found the element "<<target<<" in an array"<<endl;
     }
   }
   int main(){

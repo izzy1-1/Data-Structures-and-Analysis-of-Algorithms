@@ -11,9 +11,10 @@ def linearSearch(array, size, target):
 
 def main():
     size = int(input("Enter the size of the array: "))
-    # Dynamic array allocation (handled automatically by Python lists)
     print(f"Enter {size} elements in an array")
-    arr = list(map(int, input().split()))
+    arr =[]
+    for _ in range(size):
+        arr.append(int(input()))
     element = int(input("Enter the element you want to search in the array: "))
     linearSearch(arr, size, element)
 
