@@ -1,4 +1,4 @@
-# Bubble Sort Algorithm
+# **Bubble Sort Algorithm**
 
 ## Flowchart
 ![Flowchart](Flowchart.png)
@@ -6,7 +6,7 @@
 ## Algorithm Working
 ![Algorithm Working Image](Image.png)
 
-## Pseudo Code
+## Bubble Sort Algorithm
 
 1. Start
 2. Set i to 0
@@ -18,6 +18,7 @@
         2. Increment j by 1
     3. Increment i by 1
 4. Stop
+**Note:** we can use any loop while or for.
 
 ## Explanation
 
@@ -25,10 +26,14 @@ Bubble sort is a simple sorting algorithm that repeatedly steps through the list
 
 ## Time and Space Complexity
 
-- Time Complexity: O(n^2) - Bubble sort has quadratic time complexity in average and worst cases, as it involves nested loops where each pass through the array requires comparing each pair of adjacent elements.
-- Space Complexity: O(1) - Bubble sort is an in-place sorting algorithm, meaning it doesn't require extra space apart from the original array.
+- **Time Complexity**:
+  - **Best Case**: \( O(n) \) - This occurs when the array is already sorted. In this case, bubble sort can detect the sorted array and terminate early after a single pass.
+  - **Average Case**: \( O(n^2) \) - This occurs because, on average, bubble sort requires \( n/2 \) comparisons per pass and there are \( n \) passes, resulting in quadratic time complexity.
+  - **Worst Case**: \( O(n^2) \) - This occurs when the array is sorted in reverse order, requiring the maximum number of comparisons and swaps.
 
-### Example
+- **Space Complexity**: \( O(1) \) - Bubble sort is an in-place sorting algorithm, meaning it requires a constant amount of additional space regardless of the input size. The only extra space used is for a few variables to perform the swaps.
+
+## Example
 
 Consider the array `arr = [5, 1, 4, 2, 8]`. Here's how Bubble Sort sorts this array:
 
