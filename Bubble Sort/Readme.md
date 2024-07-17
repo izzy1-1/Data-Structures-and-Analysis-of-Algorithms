@@ -4,7 +4,7 @@
 ![Flowchart](Flowchart.png)
 
 ## Algorithm Working
-![Algorithm Working Image](Image.png)
+![Algorithm Working Image](Example.png)
 
 ## Bubble Sort Algorithm
 
