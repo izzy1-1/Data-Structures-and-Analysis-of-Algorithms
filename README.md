@@ -4,7 +4,11 @@ Data structure is a storage that is used to store and organize data. It is a way
 
 Depending on your requirement and project, it is important to choose the right data structure for your project. For example, if you want to store data sequentially in the memory, then you can go for the Array data structure.
 
-![Array data Structure Representation](Array.png)
+![Array data Structure Representation](Asrray.png)
+<div style="text-align: center;">
+  <img src="Array.png" alt="Array data Structure Representation" style="width: 200px;">
+  <p>Array data Structure Representation</p>
+</div>
 
 Note: Data structure and data types are slightly different. Data structure is the collection of data types arranged in a specific order.
 
