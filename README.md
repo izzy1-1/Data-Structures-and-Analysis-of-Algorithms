@@ -4,7 +4,7 @@ Data structure is a storage that is used to store and organize data. It is a way
 
 Depending on your requirement and project, it is important to choose the right data structure for your project. For example, if you want to store data sequentially in the memory, then you can go for the Array data structure.
 
-![Array data Structure Representation](Array.png)
+![Array data Structure Representation](mainPage-images/Example(1).png)
 
 Note: Data structure and data types are slightly different. Data structure is the collection of data types arranged in a specific order.
 
@@ -24,6 +24,6 @@ However, when the complexity of the program increases, the linear data structure
 **Popular linear data structures are:**
 ## **1. Array Data Structure**
 In an array, elements in memory are arranged in continuous memory. All the elements of an array are of the same type. And, the type of elements that can be stored in the form of arrays is determined by the programming language.
-![An array with each element represented by an index](Example(2).png)
+![An array with each element represented by an index](mainPage-images/Example(2).png)
 
 //---------------
