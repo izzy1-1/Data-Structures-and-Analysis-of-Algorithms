@@ -1,10 +1,18 @@
-# **Linear Search Algorithm**
+# **<span style="color:001F3F;">Linear Search</span>**
+Linear search is a sequential searching algorithm where we start from one end and check every element of the list until the desired element is found. It is the simplest searching algorithm.
+
+## **<span style="color:001F3F;">How Linear Search Works?</span>**
+
+The following steps are followed to search for an element `k = 1` in the list below.
+![Array to be searched for](LinearSearch-Images/Example(1).webp)
+1. Start from the first element, compare `k` with each element `x`. 
+![Compare with each element](LinearSearch-Images/Example(2).webp)
+2. If `x == k`, return the index. 
+![Element Found](LinearSearch-Images/Example(3).webp)
+3. Else, return `not found`.
 
 ## Flowchart
-![Flowchart for Linear Search](Flowchart.png)
-
-## Algorithm Working
-![Algorithm Working image](Example.png)
+![Flowchart for Linear Search](LinearSearch-Images/Flowchart.png)
 
 ## Linear Search Algorithm
 1. Start
@@ -19,16 +27,15 @@
    - Print "Element not found in the array"
 6. End
 
-Sure, here is the time and space complexity for the linear search algorithm written in the requested style:
-
 ## Time and Space Complexity
 
-- **Time Complexity**:
-  - **Best Case**: O(1) - This occurs when the target element is the first element in the array. Only one comparison is needed.
-  - **Average Case**: O(n) - This occurs for an average input. The target element may be anywhere in the array, so it requires comparisons with approximately half of the elements.
-  - **Worst Case**: O(n) - This occurs when the target element is the last element in the array or is not present at all, requiring comparisons with all elements.
+| Complexity      | Best Case | Average Case | Worst Case |
+|-----------------|-----------|--------------|------------|
+| **Time**        | O(1)      | O(n)         | O(n)       |
+| **Description** | This occurs when the target element is the first element in the array. Only one comparison is needed. | This occurs for an average input. The target element may be anywhere in the array, so it requires comparisons with approximately half of the elements. | This occurs when the target element is the last element in the array or is not present at all, requiring comparisons with all elements. |
+| **Space**       | O(1)      | O(1)         | O(1)       |
+| **Description** | Linear search only uses a constant amount of additional space, regardless of the size of the input array. | Linear search only uses a constant amount of additional space, regardless of the size of the input array. | Linear search only uses a constant amount of additional space, regardless of the size of the input array. |
 
-- **Space Complexity**: O(1) - Linear search only uses a constant amount of additional space, regardless of the size of the input array.
 
   -  **Concept:** When we say the space complexity is ***O(1)***, we are referring to the additional memory that the algorithm needs to execute, aside from the memory used by the input itself.
 
