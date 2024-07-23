@@ -1,7 +1,7 @@
-# **<span style="color:001F3F;">Linear Search</span>**
+# **Linear Search**
 Linear search is a sequential searching algorithm where we start from one end and check every element of the list until the desired element is found. It is the simplest searching algorithm.
 
-## **<span style="color:001F3F;">How Linear Search Works?</span>**
+## **How Linear Search Works?**
 
 The following steps are followed to search for an element `k = 1` in the list below.
 ![Array to be searched for](LinearSearch-Images/Example(1).webp)
