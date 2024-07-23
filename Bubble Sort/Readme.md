@@ -1,10 +1,25 @@
-# **Bubble Sort Algorithm**
+# **Bubble Sort**
+Bubble sort is a sorting algorithm that compares two adjacent elements and swaps them until they are in the intended order.
+Just like the movement of air bubbles in the water that rise up to the surface, each element of the array move to the end in each iteration. Therefore, it is called a bubble sort.
+## **Working of Bubble Sort**
+Suppose we are trying to sort the elements in **ascending order**.
+  **1. First Iteration (Compare and Swap)**
+    1. Starting from the first index, compare the first and the second elements.
+    2. If the first element is greater than the second element, they are swapped.
+    3. Now, compare the second and the third elements. Swap them if they are not in order.
+    4. The above process goes on until the last element.
+    ![Compare the Adjacent Elements](BubbleSort-Images/Example(1).png) 
+  **2. Remaining Iteration**
+    The same process goes on for the remaining iterations.
+    After each iteration, the largest element among the unsorted elements is placed at the end.
+    ![Put the largest element at the end](BubbleSort-Images/Example(2).png)
+    In each iteration, the comparison takes place up to the last unsorted element.
+    ![Compare the adjacent elements](BubbleSort-Images/Example(3).png)
+    The array is sorted when all the unsorted elements are placed at their correct positions.
+    ![The array is sorted if all elements are kept in the right order](BubbleSort-Images/Example(4).png)
 
 ## Flowchart
-![Flowchart](Flowchart.png)
-
-## Algorithm Working
-![Algorithm Working Image](Example.png)
+![Flowchart](BubbleSort-Images/Flowchart.png)
 
 ## Bubble Sort Algorithm
 
@@ -26,12 +41,12 @@ Bubble sort is a simple sorting algorithm that repeatedly steps through the list
 
 ## Time and Space Complexity
 
-- **Time Complexity**:
-  - **Best Case**: \( O(n) \) - This occurs when the array is already sorted. In this case, bubble sort can detect the sorted array and terminate early after a single pass.
-  - **Average Case**: \( O(n^2) \) - This occurs because, on average, bubble sort requires \( n/2 \) comparisons per pass and there are \( n \) passes, resulting in quadratic time complexity.
-  - **Worst Case**: \( O(n^2) \) - This occurs when the array is sorted in reverse order, requiring the maximum number of comparisons and swaps.
-
-- **Space Complexity**: \( O(1) \) - Bubble sort is an in-place sorting algorithm, meaning it requires a constant amount of additional space regardless of the input size. The only extra space used is for a few variables to perform the swaps.
+| Complexity      | Best Case | Average Case | Worst Case |
+|-----------------|-----------|--------------|------------|
+| **Time**        | \( O(n) \) | \( O(n^2) \) | \( O(n^2) \) |
+| **Description** | This occurs when the array is already sorted. In this case, bubble sort can detect the sorted array and terminate early after a single pass. | This occurs because, on average, bubble sort requires \( n/2 \) comparisons per pass and there are \( n \) passes, resulting in quadratic time complexity. | This occurs when the array is sorted in reverse order, requiring the maximum number of comparisons and swaps. |
+| **Space**       | \( O(1) \) | \( O(1) \)      | \( O(1) \)      |
+| **Description** | Bubble sort is an in-place sorting algorithm, meaning it requires a constant amount of additional space regardless of the input size. The only extra space used is for a few variables to perform the swaps. | Bubble sort is an in-place sorting algorithm, meaning it requires a constant amount of additional space regardless of the input size. The only extra space used is for a few variables to perform the swaps. | Bubble sort is an in-place sorting algorithm, meaning it requires a constant amount of additional space regardless of the input size. The only extra space used is for a few variables to perform the swaps. |
 
 ## Example
 
