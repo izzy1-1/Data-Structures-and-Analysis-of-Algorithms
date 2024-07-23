@@ -35,7 +35,7 @@ def main():
     for _ in range(size):
         element = int(input())  
         # Read elements into the array
-        arr.append(element)
+        arr.append(int(element))
 
     target = int(input("Enter an element which you want to search from list: ")) 
      # Read the target element to search for
