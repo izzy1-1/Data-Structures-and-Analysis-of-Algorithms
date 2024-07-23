@@ -1,4 +1,4 @@
-#include<iostream>
+#include<iostream>//for using cout,cin etc
 using namespace std;
 
 void binarySearch(int *array, int end, int target) {
