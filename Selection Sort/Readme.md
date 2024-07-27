@@ -1,10 +1,36 @@
 # **Selection Sort Algorithm**
+Selection sort is a sorting algorithm that selects the smallest element from an unsorted list in each iteration and places that element at the beginning of the unsorted list.
+
+## **Working of Selection Sort**
+1. Set the first element as `minimum`.
+
+![Select first element as minimum](SelectionSort-Images/Example(1).png) 
+
+2. Compare `minimum` with the second element. If the second element is smaller than `minimum`, assign the second element as `minimum`.
+
+   Compare `minimum` with the third element. Again, if the third element is smaller, then assign `minimum` to the third element otherwise do nothing. The process goes on until the last element. 
+
+![Compare minimum with the remaining elements](SelectionSort-Images/Example(2).png)
+
+3. After each iteration, `minimum` is placed in the front of the unsorted list. 
+
+![Swap the first with minimum](SelectionSort-Images/Example(3).png)
+
+4. For each iteration, indexing starts from the first unsorted element. Step 1 to 3 are repeated until all the elements are placed at their correct positions. 
+
+![The first iteration](SelectionSort-Images/Example(4).png)
+
+![The second iteration](SelectionSort-Images/Example(5).png)
+
+![The third iteration](SelectionSort-Images/Example(6).png)
+
+![The fourth iteration](SelectionSort-Images/Example(7).png)
 
 ## Flowchart
-![Flowchart](Flowchart.png)
+![Flowchart](SelectionSort-Images//Flowchart.png)
 
 ## Algorithm Working
-![Algorithm Working Image](Example.png)
+![Algorithm Working Image](SelectionSort-Images//Example.png)
 
 ## Selection Sort Algorithm
 1. Start with the first element of the array as the minimum (minIndex).
@@ -24,12 +50,13 @@
 
 ## Time and Space Complexity
 
-- **Time Complexity**:
-  - **Best Case**: O(n²) - This occurs when the array is already sorted. Each element must still be compared with every other element.
-  - **Average Case**: O(n²) - This occurs for an average input. Each element may require comparisons with almost all other elements.
-  - **Worst Case**: O(n²) - This occurs when the array is sorted in reverse order, requiring the maximum number of comparisons.
+| Complexity      | Best Case | Average Case | Worst Case |
+|-----------------|-----------|--------------|------------|
+| **Time**        | \( O(n^2) \) | \( O(n^2) \) | \( O(n^2) \) |
+| **Description** | This occurs when the array is already sorted. Each element must still be compared with every other element. | This occurs for an average input. Each element may require comparisons with almost all other elements. | This occurs when the array is sorted in reverse order, requiring the maximum number of comparisons. |
+| **Space**       | \( O(1) \) | \( O(1) \)   | \( O(1) \)  |
+| **Description** | Selection Sort is an in-place sorting algorithm, meaning it requires a constant amount of additional space regardless of the input size. | Selection Sort is an in-place sorting algorithm, meaning it requires a constant amount of additional space regardless of the input size. | Selection Sort is an in-place sorting algorithm, meaning it requires a constant amount of additional space regardless of the input size. |
 
-- **Space Complexity**: O(1) - Selection Sort is an in-place sorting algorithm, meaning it requires a constant amount of additional space regardless of the input size.
 
 ### Explanation of Selection Sort
 
