@@ -29,10 +29,6 @@ Suppose we are trying to sort the elements in **ascending order**.
   
   ![The array is sorted if all elements are kept in the right order](BubbleSort-Images/Example(4).png)
 
-## Flowchart
-
-![Flowchart](BubbleSort-Images/Flowchart.png)
-
 ## Bubble Sort Algorithm
 
 1. Start
@@ -58,30 +54,5 @@ Bubble sort is a simple sorting algorithm that repeatedly steps through the list
 | **Time**        | \( O(n) \) | \( O(n^2) \) | \( O(n^2) \) |
 | **Description** | This occurs when the array is already sorted. In this case, bubble sort can detect the sorted array and terminate early after a single pass. | This occurs because, on average, bubble sort requires \( n/2 \) comparisons per pass and there are \( n \) passes, resulting in quadratic time complexity. | This occurs when the array is sorted in reverse order, requiring the maximum number of comparisons and swaps. |
 | **Space**       | \( O(1) \) | \( O(1) \)      | \( O(1) \)      |
-| **Description** | Bubble sort is an in-place sorting algorithm, meaning it requires a constant amount of additional space regardless of the input size. The only extra space used is for a few variables to perform the swaps. | Bubble sort is an in-place sorting algorithm, meaning it requires a constant amount of additional space regardless of the input size. The only extra space used is for a few variables to perform the swaps. | Bubble sort is an in-place sorting algorithm, meaning it requires a constant amount of additional space regardless of the input size. The only extra space used is for a few variables to perform the swaps. |
 
-## Example
-
-Consider the array `arr = [5, 1, 4, 2, 8]`. Here's how Bubble Sort sorts this array:
-
-1. **Initial Array**: `[5, 1, 4, 2, 8]`
-   
-2. **First Pass**:
-   - Compare `5` and `1`, swap because `5 > 1`: `[1, 5, 4, 2, 8]`
-   - Compare `5` and `4`, swap because `5 > 4`: `[1, 4, 5, 2, 8]`
-   - Compare `5` and `2`, swap because `5 > 2`: `[1, 4, 2, 5, 8]`
-   - Compare `5` and `8`, no swap: `[1, 4, 2, 5, 8]`
-
-3. **Second Pass**:
-   - Compare `1` and `4`, no swap: `[1, 4, 2, 5, 8]`
-   - Compare `4` and `2`, swap because `4 > 2`: `[1, 2, 4, 5, 8]`
-   - Compare `4` and `5`, no swap: `[1, 2, 4, 5, 8]`
-   - Compare `5` and `8`, no swap: `[1, 2, 4, 5, 8]`
-
-4. **Third Pass**:
-   - Compare `1` and `2`, no swap: `[1, 2, 4, 5, 8]`
-   - Compare `2` and `4`, no swap: `[1, 2, 4, 5, 8]`
-   - Compare `4` and `5`, no swap: `[1, 2, 4, 5, 8]`
-   - Compare `5` and `8`, no swap: `[1, 2, 4, 5, 8]`
-
-5. **Sorted Array**: `[1, 2, 4, 5, 8]`
+Bubble sort is an in-place sorting algorithm, meaning it requires a constant amount of additional space regardless of the input size. The only extra space used is for a few variables to perform the swaps. 
