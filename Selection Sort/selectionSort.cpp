@@ -7,7 +7,6 @@ How it works:
 #include<iostream>
   using namespace std;
   
-// Function to perform selection sort
 void selectionSort(int *array, int size) {
     for (int i = 0; i < size - 1; i++) {
         int minIndex = i; // Assume the minimum is the first element
@@ -24,7 +23,6 @@ void selectionSort(int *array, int size) {
     }
 }
 
-  
 int main() {
     int size;
     cout << "Enter size of an array: ";

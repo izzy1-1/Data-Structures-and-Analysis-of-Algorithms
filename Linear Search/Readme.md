@@ -1,17 +1,22 @@
 # **Linear Search**
 Linear search is a sequential searching algorithm where we start from one end and check every element of the list until the desired element is found. It is the simplest searching algorithm.
-
 ## **How Linear Search Works?**
-
 The following steps are followed to search for an element `k = 1` in the list below.
-![Array to be searched for](LinearSearch-Images/Example(1).webp)
-1. Start from the first element, compare `k` with each element `x`. 
-![Compare with each element](LinearSearch-Images/Example(2).webp)
-2. If `x == k`, return the index. 
-![Element Found](LinearSearch-Images/Example(3).webp)
-3. Else, return `not found`.
+   
+   ![Array to be searched for](LinearSearch-Images/Example(1).webp)
+   
+   1. Start from the first element, compare `k` with each element `x`. 
+   
+   ![Compare with each element](LinearSearch-Images/Example(2).webp)
+
+   2. If `x == k`, return the index. 
+   
+   ![Element Found](LinearSearch-Images/Example(3).webp)
+   
+   3. Else, return `not found`.
 
 ## Flowchart
+
 ![Flowchart for Linear Search](LinearSearch-Images/Flowchart.png)
 
 ## Linear Search Algorithm
