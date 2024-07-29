@@ -37,7 +37,6 @@ int main() {
     for(int i = 0; i < size; i++) {
         cin >> arr[i]; // Read elements into the array
     }
-
     cout << "Enter an element which you want to search from list:";
     cin >> target; // Read the target element to search for
 
