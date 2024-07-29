@@ -4,6 +4,7 @@ the number of occurrences of each unique element in the array.
 
 This program is only for positive numbers input.
 """
+
 def countingSort(input_arr):
     # Find the maximum value in the array
     max_val = max(input_arr)
