@@ -26,7 +26,7 @@ void selectionSort(int *array, int size) {
 int main() {
     int size;
     cout << "Enter size of an array: ";
-    cin >> size; // Read the size of the array from the user
+    cin >> size; 
 
     // Dynamically allocate an array of the given size
     int *arr = new int[size]; 
