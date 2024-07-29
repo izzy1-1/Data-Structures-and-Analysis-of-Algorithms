@@ -36,7 +36,6 @@ int main() {
         cout << arr[i] << " "; // Print elements after sorting
     }
     cout << endl;
-
     delete [] arr; // Deallocate the dynamically allocated array
     return 0; // Return 0 to indicate successful execution
 }
