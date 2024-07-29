@@ -40,9 +40,6 @@ The general steps for both methods are discussed below.
   
   ![Found](BinarySearch-Images/Example(6).webp)
 
-## Flow Chart
-![Flow Chart of Binary Search](BinarySearch-Images/Flowchart.png)
-
 ## Binary Search Algorithm
 
 1. Initialize variables `start`, `end`, and `index`:
@@ -76,21 +73,8 @@ The general steps for both methods are discussed below.
 | **Time**        | \( O(1) \) | \( O(\log n) \) | \( O(\log n) \) |
 | **Description** | This occurs when the target element is the middle element of the array, requiring only one comparison. | This occurs because, on average, the algorithm halves the search space with each iteration until the target is found or the search space is exhausted. | This occurs when the target element is not in the array, or it is at the very beginning or end of the array, requiring the maximum number of comparisons. |
 | **Space**       | \( O(1) \) | \( O(1) \)      | \( O(1) \)      |
-| **Description** | Binary search uses a constant amount of additional space, regardless of the size of the input array. This includes a few variables to store the low, high, and mid indices used during the search process. | Binary search uses a constant amount of additional space, regardless of the size of the input array. This includes a few variables to store the low, high, and mid indices used during the search process. | Binary search uses a constant amount of additional space, regardless of the size of the input array. This includes a few variables to store the low, high, and mid indices used during the search process. |
 
-## Explanation
+Binary search uses a constant amount of additional space, regardless of the size of the input array. This includes a few variables to store the low, high, and mid indices used during the search process.
 
-Binary search is an efficient algorithm for finding an element in a ***sorted array***. The algorithm works by repeatedly dividing the search interval in half. If the value of the search key is less than the item in the middle of the interval, the search focuses on the lower half. Otherwise, it focuses on the upper half. This process continues until the search interval is empty or the target value is found.
-
-### Example
-Given a sorted array `[1, 3, 5, 7, 9, 11]` and a target value `7`:
-
-1. Start with `start` = 0 and `end` = 5.
-2. Calculate `mid` = (0 + 5) / 2 = 2. The middle element is `5`.
-3. Since `5` < `7`, update `start` = 3.
-4. Calculate `mid` = (3 + 5) / 2 = 4. The middle element is `9`.
-5. Since `9` > `7`, update `end` = 3.
-6. Calculate `mid` = (3 + 3) / 2 = 3. The middle element is `7`.
-7. Since `7` == `7`, the target is found at index `3`.
 
 The algorithm efficiently narrows down the search space, leading to a fast and effective search process.
