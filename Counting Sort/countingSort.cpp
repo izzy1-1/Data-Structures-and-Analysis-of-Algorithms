@@ -4,6 +4,7 @@ the number of occurrences of each unique element in the array.
 
 This program is only for positive numbers input.
 */
+
 #include <iostream>
 using namespace std;
 
