@@ -4,24 +4,24 @@ Counting sort is a sorting algorithm that sorts the elements of an array by coun
 ## **Algorithm Working**
 1. Find out the maximum element (let it be max) from the given array. 
 
-![Algorithm Working Image](Images/Example(1).png)
+![Algorithm Working Image](CountingSort-Images/Example(1).png)
 
 2. Initialize an array of length max+1 with all elements 0. This array is used for storing the count of the elements in the array. 
 
-![Algorithm Working Image](Images/Example(2).png)
+![Algorithm Working Image](CountingSort-Images/Example(2).png)
 
 3. Store the count of each element at their respective index in count array
 For example: if the count of element 3 is 2 then, 2 is stored in the 3rd position of count array. If element "5" is not present in the array, then 0 is stored in 5th position. 
 
-![Algorithm Working Image](Images/Example(3).png)
+![Algorithm Working Image](CountingSort-Images/Example(3).png)
 
 4. Store cumulative sum of the elements of the count array. It helps in placing the elements into the correct index of the sorted array. 
 
-![Algorithm Working Image](Images/Example(4).png)
+![Algorithm Working Image](CountingSort-Images/Example(4).png)
 
 5. Find the index of each element of the original array in the count array. This gives the cumulative count. Place the element at the index calculated as shown in figure below. 
 
-![Algorithm Working Image](Images/Example(5).png)
+![Algorithm Working Image](CountingSort-Images/Example(5).png)
 
 6. After placing each element at its correct position, decrease its count by one.
 
@@ -67,28 +67,6 @@ For example: if the count of element 3 is 2 then, 2 is stored in the 3rd positio
   - **Worst Case**: O(n + k) - The worst-case time complexity is also linear with respect to both the number of elements and the range of the values.
 
 - **Space Complexity**: O(k) - Counting Sort requires additional space for the `countArr` and `outputArr`. The space complexity depends on the range of the input values (`k`), which dictates the size of `countArr`.
-
-### Counting Sort
-
-**Counting Sort** is a non-comparison-based sorting algorithm that works by counting the occurrences of each unique value in the input array and using this count to place each value in its correct position in the output array.
-
-#### Example
-
-Consider the array `[4, 2, 2, 1]`.
-
-1. **Find Maximum Value**: The maximum value is `4`.
-2. **Create Count Array**: Create a count array of size `5` (from `0` to `4`) and initialize to `[0, 0, 0, 0, 0]`.
-3. **Count Occurrences**:
-   - Increment count for `4`: `[0, 0, 0, 0, 1]`
-   - Increment count for `2`: `[0, 0, 1, 0, 1]`
-   - Increment count for `2` again: `[0, 0, 2, 0, 1]`
-   - Increment count for `1`: `[0, 1, 2, 0, 1]`
-4. **Compute Cumulative Counts**: Update the count array to reflect the position of each value in the output array: `[0, 1, 3, 3, 4]`.
-5. **Build Output Array**:
-   - Place `1` at index `0`: `[1, _, _, _]`
-   - Place `2` at index `1`: `[1, 2, _, _]`
-   - Place `2` again at index `2`: `[1, 2, 2, _]`
-   - Place `4` at index `3`: `[1, 2, 2, 4]`
 
 #### Characteristics
 
