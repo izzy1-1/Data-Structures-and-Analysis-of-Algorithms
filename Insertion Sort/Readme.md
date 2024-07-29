@@ -31,12 +31,6 @@ Suppose we need to sort the following array.
 ![Place 3 behind 1 and the array is sorted](InsertionSort-Images/Example(5).png)
 
 
-## Flowchart
-![Flowchart](InsertionSort-Images/Flowchart.png)
-
-## Algorithm Working
-![Algorithm Working Image](InsertionSort-Images//Example.png)
-
 ## Insertion Sort Algorithm
 
 1. Start from the first element (index 0) of the array.
@@ -55,9 +49,5 @@ Suppose we need to sort the following array.
 | **Time**        | \( O(n) \) | \( O(n^2) \) | \( O(n^2) \) |
 | **Description** | This occurs when the array is already sorted. The inner loop only runs once for each element. | This occurs for an average input. Each element may have to be compared with about half of the already sorted elements. | This occurs when the array is sorted in reverse order, requiring the maximum number of comparisons and shifts. |
 | **Space**       | \( O(1) \) | \( O(1) \)   | \( O(1) \)  |
-| **Description** | Insertion Sort is an in-place sorting algorithm, which means it requires a constant amount of additional space regardless of the input size. | Insertion Sort is an in-place sorting algorithm, which means it requires a constant amount of additional space regardless of the input size. | Insertion Sort is an in-place sorting algorithm, which means it requires a constant amount of additional space regardless of the input size. |
 
-
-## Explanation of Insertion Sort
-
-Insertion Sort is a simple sorting algorithm that builds the final sorted array (or list) one item at a time. It is much like sorting playing cards in your hands, where you gradually build up the sorted portion of the cards.
+Insertion Sort is an in-place sorting algorithm, which means it requires a constant amount of additional space regardless of the input size. 
