@@ -3,21 +3,18 @@ Linear search is a sequential searching algorithm where we start from one end an
 ## **How Linear Search Works?**
 The following steps are followed to search for an element `k = 1` in the list below.
    
-   ![Array to be searched for](LinearSearch-Images/Example(1).webp)
+![Array to be searched for](LinearSearch-Images/Example(1).webp)
    
-   1. Start from the first element, compare `k` with each element `x`. 
+1. Start from the first element, compare `k` with each element `x`. 
    
-   ![Compare with each element](LinearSearch-Images/Example(2).webp)
+![Compare with each element](LinearSearch-Images/Example(2).webp)
 
-   2. If `x == k`, return the index. 
+2. If `x == k`, return the index. 
    
-   ![Element Found](LinearSearch-Images/Example(3).webp)
+![Element Found](LinearSearch-Images/Example(3).webp)
    
-   3. Else, return `not found`.
+3. Else, return `not found`.
 
-## Flowchart
-
-![Flowchart for Linear Search](LinearSearch-Images/Flowchart.png)
 
 ## Linear Search Algorithm
 1. Start
@@ -39,10 +36,8 @@ The following steps are followed to search for an element `k = 1` in the list be
 | **Time**        | O(1)      | O(n)         | O(n)       |
 | **Description** | This occurs when the target element is the first element in the array. Only one comparison is needed. | This occurs for an average input. The target element may be anywhere in the array, so it requires comparisons with approximately half of the elements. | This occurs when the target element is the last element in the array or is not present at all, requiring comparisons with all elements. |
 | **Space**       | O(1)      | O(1)         | O(1)       |
-| **Description** | Linear search only uses a constant amount of additional space, regardless of the size of the input array. | Linear search only uses a constant amount of additional space, regardless of the size of the input array. | Linear search only uses a constant amount of additional space, regardless of the size of the input array. |
 
+Linear search only uses a constant amount of additional space, regardless of the size of the input array.
 
   -  **Concept:** When we say the space complexity is ***O(1)***, we are referring to the additional memory that the algorithm needs to execute, aside from the memory used by the input itself.
 
-## Explanation
-Linear search is a simple search algorithm that checks each element in an array sequentially until the target element is found or the end of the array is reached. This algorithm is straightforward and works well for small or unsorted datasets. However, its efficiency decreases as the size of the dataset increases, making it less suitable for large datasets compared to more advanced search algorithms like binary search.
