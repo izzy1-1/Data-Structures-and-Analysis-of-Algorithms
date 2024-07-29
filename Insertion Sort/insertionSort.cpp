@@ -4,6 +4,7 @@ and the other part of the array to hold values that are not sorted yet.
 
 The algorithm takes one value at a time from the unsorted part of the array and
  puts it into the right place in the sorted part of the array, until the array is sorted.
+
 */
 #include<iostream>
 using namespace std;

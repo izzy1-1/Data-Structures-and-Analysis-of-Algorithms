@@ -7,7 +7,7 @@ def insertion_sort(array):
         while j >= 0 and array[j] > current_value:
             array[j + 1] = array[j]
             j -= 1
-        
+            
         # Insert the current element at the correct position
         array[j + 1] = current_value
 
