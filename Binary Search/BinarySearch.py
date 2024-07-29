@@ -24,7 +24,6 @@ def binary_search(array, end, target):
         print(f"{target} not found in list")  
         # Print that the target is not found
 
-
 def main():
     size = int(input("Enter size of an array: "))  
     # Read the size of the array
