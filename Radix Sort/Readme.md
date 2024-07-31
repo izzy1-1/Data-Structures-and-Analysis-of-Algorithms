@@ -73,7 +73,7 @@ Thus, radix sort has linear time complexity which is better than `O(nlog n)` of 
 
 If we take very large digit numbers or the number of other bases like 32-bit and 64-bit numbers then it can perform in linear time however the intermediate sort takes large space.
 
-This makes radix sort space inefficient. This is the reason why this sort is not used in software libraries.
+This makes radix sort `space` inefficient. This is the reason why this sort is not used in software libraries.
 
 ## **Radix Sort Applications**
 
