@@ -48,6 +48,5 @@ Finally, the elements are gathered in order.
 ### Bucket Sort Applications
 
 Bucket sort is particularly useful when:
-
 - The input is uniformly distributed over a range.
 - There are floating-point values to be sorted.
