@@ -33,7 +33,6 @@ Finally, the elements are gathered in order.
 **Stability:** Yes
 
 #### Detailed Analysis:
-
 - **Worst Case Complexity: \(O(n^2)\)**
   - This occurs when the elements have a close range, leading to an uneven distribution where some buckets contain significantly more elements than others.
   - The sorting algorithm used within each bucket influences the overall complexity. For example, if insertion sort is used and the elements are in reverse order, the time complexity can degrade to \(O(n^2)\).
