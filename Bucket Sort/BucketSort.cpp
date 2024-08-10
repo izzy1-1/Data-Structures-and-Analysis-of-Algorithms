@@ -18,6 +18,7 @@ void bucketSort(float *inputArr, int size) {
     for (int i = 0; i < size; i++) {
         sort(buckets[i].begin(), buckets[i].end());
     }
+    
 
     // Concatenate all buckets into the input array
     int index = 0;
