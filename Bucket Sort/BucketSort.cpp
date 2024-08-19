@@ -13,7 +13,6 @@ void bucketSort(float *inputArr, int size) {
         int bucketIndex = size * inputArr[i]; // Index in the bucket
         buckets[bucketIndex].push_back(inputArr[i]);
     }
-
     // Sort individual buckets
     for (int i = 0; i < size; i++) {
         sort(buckets[i].begin(), buckets[i].end());
